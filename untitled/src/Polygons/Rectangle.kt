@@ -1,8 +1,10 @@
-class Rectangle(origin: Point, width: Double, length: Double) : Polygon(origin, width, length) {
-    init {
-        require(length > 0) { "A rectangle cannot have 0 length" }
-        require(width > 0) { "A rectangle cannot have 0 width" }
-    }
+package Polygons
+import Point
+import Polygon
+
+// By making rectangle class open I can inherit from Rectangle in my square class
+open class Rectangle(origin: Point, width: Double, length: Double) : Polygon(origin, width, length) {
+
     override fun getArea(): Double {
         return this.width * this.length
     }
