@@ -1,10 +1,10 @@
 class Point(private var x: Double, private var y: Double) {
 
-    private fun getX(): Double {
+    fun getX(): Double {
         return x
     }
 
-    private fun getY(): Double {
+    fun getY(): Double {
         return y
     }
 
