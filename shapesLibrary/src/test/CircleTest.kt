@@ -1,6 +1,8 @@
+package test
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
-
+import Point
+import Circle
 class CircleTest {
 
     @Test

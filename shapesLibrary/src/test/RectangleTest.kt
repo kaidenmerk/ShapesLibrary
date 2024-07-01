@@ -1,7 +1,8 @@
+package test
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 import Polygons.Rectangle
-
+import Point
 class RectangleTest {
 
     @Test
