@@ -23,4 +23,8 @@ class Point(private var x: Double, private var y: Double) {
         moveX(deltaX)
         moveY(deltaY)
     }
+
+    fun printPoint() {
+        print("($x, $y)")
+    }
 }
