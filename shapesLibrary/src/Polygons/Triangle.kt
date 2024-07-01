@@ -1,3 +1,6 @@
+package Polygons
+import Point
+import Polygon
 class Triangle(origin: Point, width: Double, length: Double) : Polygon(origin, width, length) {
     override fun getAttributes(): List<Point> {
         var point2 = Point(origin.getX(), origin.getY() + this.length)
